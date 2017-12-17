@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html,body{
+  height: 100%;
+}
+.pages{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.paralla{
+  color: #ffffff;
+background: url("Images/Background/second.jpg") no-repeat fixed 100%;
+background-size: cover;
+}
+
+
+#home{
+  background: url("Images/Background/first.jpg");
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  height:100%;
+}
+#logo_content{
+  margin-bottom: 50px;
+}
+#about{
+  display: flex;
+  align-items: center;
+  height:350px;
+}
+.carousel {
+  width:780px;
+  height:440px;
+}
+
+#photos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+}
+#image_cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+#photos_heading{
+  margin-bottom: 15px;
+}
+#myCarousel{
+  margin-top: 50px;
+}
+#team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.carousel-indicators {
+  bottom:-50px;
+}
+.carousel-inner {
+   margin-bottom:50px;
+}
+.name{
+  font-size: 20px;
+  margin-top: 10px;
+}
+#temp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.mem_photo{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.member_photo:nth-child(3){
+  break-after: always;
+}
+footer{
+  overflow: hidden;
+}
+a{
+  color: red;
+  decoration:none;
+}
